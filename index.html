@@ -8,7 +8,7 @@
     <title>Online shop Vydelka</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">-->
-    <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
@@ -33,7 +33,7 @@
                 </ul>
                 <div>
                     <a class="nav-link" href="#cartModal" data-toggle="modal">
-                      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                      <i class="fa fa-shopping-cart fa-spin fa-lg"" aria-hidden="true"></i>
                         Cart<span id="cart-badge" class="badge badge-light"></span>
                     </a>
                 </div>
@@ -42,16 +42,47 @@
     </header>
     <main class="container">
         <div class="jumbotron">
-            <div class="intro mx-auto">
-                <h1 class="display-4">Welcome to Vydelka</h1>
-                <p class="lead">Best online shop in the World!</p>
-                <hr class="my-4">
-                <p>Buy with discount today</p>
-                <p class="lead">
-                  <a class="btn btn-primary btn-lg smooth" href="#products" role="button">Start shopping</a>
-                </p>
-            </div>    
-        </div>
+        
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                      <div class="jumbotron">
+                        <div class="intro mx-auto">
+                            <div class="carousel-caption">
+                            <h1 class="display-4">Welcome to Vydelka</h1>
+                            <p class="lead">Best online shop in the World!</p>
+                            <hr class="my-4">
+                            <p>Buy with discount today</p>
+                            <p class="lead">
+                              <a class="btn btn-primary btn-lg smooth" href="#products" role="button">Start shopping</a>
+                            </p>
+                        </div>    
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="https://fortunedotcom.files.wordpress.com/2017/10/mind-control-drones.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="http://www.pembrokeshirecoastalforum.org.uk/wp-content/uploads/2017/03/8a5149_75dd2d1db1a140559da4b84658b81343-mv2.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="http://masteryofwealth.com/wp-content/uploads/2017/05/drones3.jpg" alt="Fourth slide">
+                </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
 
         </div>
         <section>

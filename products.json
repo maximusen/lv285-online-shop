@@ -40,5 +40,12 @@
         "image": "gyroboard-white.jpg",
         "description": "White gyroboard with blue lights",
         "price": 829.99
+    },
+    {
+        "id": "7",
+        "title": "Dark gyroboard",
+        "image": "dark-drone.jpg",
+        "description": "Dark gyroboard Mavic Pro with GoPro HD-camera",
+        "price": 1777.99
     }
 ]

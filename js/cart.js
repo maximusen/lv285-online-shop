@@ -72,7 +72,7 @@ class Cart {
         if (form.checkValidity()) {
             ev.preventDefault();
             $.ajax({
-                url: "https://formspree.io/YOUR_EMAIL_HERE", 
+                url: "https://formspree.io/simon.ms777@gmail.com", 
                 method: "POST",
                 data: {
                     clientName: $('#client-name').val(),
